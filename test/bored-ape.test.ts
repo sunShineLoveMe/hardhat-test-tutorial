@@ -47,7 +47,7 @@ describe("Bored Ape", () => {
         ).to.emit(boredApeContract, "Transfer")
         .withArgs(ethers.constants.AddressZero, owner.address, tokenId);
     })
-
+    // 
     // it("Should mint an Ape", async() => {
     //     await boredApeContract.flipSaleState();
     //     expect(await boredApeContract.mintApe(1)).to.emit(boredApeContract, "Transfer");
